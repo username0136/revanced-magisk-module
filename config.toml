@@ -1,8 +1,8 @@
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "module"
-included-patches = "client-spoof copy-video-url disable-shorts-on-startup disable-zoom-haptics external-downloads hdr-auto-brightness hide-shorts-components hide-ads hide-autoplay-button hide-crowdfunding-box hide-floating-microphone-button hide-info-cards hide-watermark minimized-playback navigation-buttons old-video-quality-menu open-links-externally playback-speed premium-heading seekbar-tapping sponsorblock theme video-ads"
-exclusive-patches = true
+# [YouTube]
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# build-mode = "module"
+# included-patches = "client-spoof copy-video-url disable-shorts-on-startup disable-zoom-haptics external-downloads hdr-auto-brightness hide-shorts-components hide-ads hide-autoplay-button hide-crowdfunding-box hide-floating-microphone-button hide-info-cards hide-watermark minimized-playback navigation-buttons old-video-quality-menu open-links-externally playback-speed premium-heading seekbar-tapping sponsorblock theme video-ads"
+# exclusive-patches = true
 
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
