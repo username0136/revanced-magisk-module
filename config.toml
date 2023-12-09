@@ -4,10 +4,10 @@ enable-magisk-update = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 build-mode = "module"
-version = "latest"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable new layout' 'Enable opus codec' 'Enable playback speed' 'Enable sleep timer' 'Exclusive audio playback' 'Hide get premium' 'Hide music ads' 'Hide navigation bar component' 'Hook download button' 'Return YouTube Dislike' 'Settings' 'SponsorBlock'"
+version = "6.29.58"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable new player background' 'Enable opus codec' 'Enable playback speed' 'Enable sleep timer' 'Exclusive audio playback' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'Hook download button' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock' 'Spoof app version'"
 exclusive-patches = true
 
 
