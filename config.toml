@@ -7,7 +7,7 @@ build-mode = "module"
 version = "latest"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable new player background' 'Enable opus codec' 'Enable playback speed' 'Enable sleep timer' 'Exclusive audio playback' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'Hook download button' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock' 'Spoof app version'"
+included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable new player background' 'Enable opus codec' 'Enable playback speed' 'Enable sleep timer' 'Exclusive audio playback' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'Hook download button' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock' 'Spoof app version'"
 exclusive-patches = true
 
 
