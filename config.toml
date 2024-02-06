@@ -1,65 +1,28 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+[YT Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "arm64-v8a"
+build-mode = "both"
+#version = "6.29.58"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Custom package name' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable opus codec' 'Enable playback speed' 'Exclusive audio playback' 'Hide action bar component' 'Hide fullscreen share button' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'MicroG support' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock'"
+exclusive-patches = true
 
-# you can use rvmm-config-gen to generate a config
 
 [YouTube]
+# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+# apkmirror-arch = "arm64-v8a"
+# build-mode = "both"
+# #version = "18.46.43"
+# excluded-patches = "'Alternative thumbnails' 'GmsCore support' 'Wide searchbar' 'Hide captions button' 'Hide cast button' 'Hide player buttons' 'Disable player popup panels' 'Custom player overlay opacity' 'Disable auto captions' 'Hide timestamp' 'Hide layout components' 'Hide endscreen cards' 'Hide album cards' 'Hide email address' 'Hide breaking news shelf' 'Hide filter bar' 'Hide 'Load more' button' 'Disable suggested video end screen' 'Hide seekbar' 'Comments' 'Spoof app version' 'Enable tablet layout' 'Tablet mini player' 'Always autorepeat' 'Announcements' 'Enable debugging' 'Swipe controls' 'Enable slide to seek'"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-arch = "arm64-v8a"
 build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music]
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "both"
-
-[Twitter]
-build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-
-[Twitch]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-
-[TikTok]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-
-[Reddit]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-arch = "arm64-v8a"
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[Music-Extended]
-enabled = false
-app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-arch = "both"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+included-patches = "'Ambient mode switch' 'Custom package name' 'Custom playback speed' 'Default video quality' 'Disable haptic feedback' 'Disable shorts on startup' 'Enable external browser' 'Enable minimized playback' 'Enable new thumbnail preview' 'Enable old quality layout' 'Enable open links directly' 'Enable seekbar tapping' 'Enable song search' 'Force OPUS codec' 'Force video codec' 'Hide autoplay button' 'Hide autoplay preview' 'Hide button container' 'Hide cast button' 'Hide channel watermark' 'Hide crowdfunding box' 'Hide end screen cards' 'Hide floating microphone' 'Hide general ads' 'Hide info cards' 'Hide latest videos button' 'Hide layout components' 'Hide navigation buttons' 'Hide previous next button' 'Hide shorts components' 'Hide suggested video overlay' 'Hide video ads' 'MicroG support' 'Overlay buttons' 'Premium heading' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock' 'Spoof app version' 'Spoof device dimensions' 'Spoof player parameters' 'Theme'"
+exclusive-patches = true
