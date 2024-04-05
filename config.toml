@@ -8,7 +8,7 @@ version = "6.41.58"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-included-patches = "'Background play' 'Bitrate default value' 'Certificate spoof' 'Custom package name' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable opus codec' 'Enable playback speed' 'Exclusive audio playback' 'Hide action bar component' 'Hide fullscreen share button' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'MicroG support' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock'"
+included-patches = "'Background play' 'GmsCore support' 'Bitrate default value' 'Certificate spoof' 'Custom package name' 'Custom playback speed' 'Enable force minimized player' 'Enable landscape mode' 'Enable minimized playback' 'Enable opus codec' 'Enable playback speed' 'Exclusive audio playback' 'Hide action bar component' 'Hide fullscreen share button' 'Hide general ads' 'Hide get premium' 'Hide navigation bar component' 'MicroG support' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'SponsorBlock'"
 exclusive-patches = true
 
 
