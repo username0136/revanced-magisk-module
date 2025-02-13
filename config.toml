@@ -2,7 +2,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 
 [Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/instagram-367-0-0-43-89-release/instagram-367-0-0-43-89-11-android-apk-download/"
 build-mode = "module"
 
 # [Music]
