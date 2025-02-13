@@ -2,10 +2,8 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 
 [Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "arm64-v8a"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
 build-mode = "module"
-version = "367.0.0.43.89"
 
 # [Music]
 # apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
