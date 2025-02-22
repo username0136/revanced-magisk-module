@@ -6,19 +6,19 @@ uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 build-mode = "module"
 arch = "arm64-v8a"
 
-# [Music]
-# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-# arch = "arm64-v8a"
-# build-mode = "module"
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+build-mode = "module"
 
-# [Reddit]
-# apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-# arch = "arm64-v8a"
-# build-mode = "module"
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+arch = "arm64-v8a"
+build-mode = "module"
 
-# [YouTube]
-# apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-# arch = "arm64-v8a"
-# build-mode = "module"
-# excluded-patches = "'Enable slide to seek' 'Swipe controls' 'Disable auto captions' 'Change form factor' 'Hide seekbar' 'Hide timestamp' 'Exit fullscreen mode' 'Open videos fullscreen' 'Custom player overlay opacity' 'Wide searchbar' 'Shorts autoplay' 'Spoof app version' 'Change start page' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'Check watch history domain name resolution' 'GmsCore support' 'Disable HDR video'"
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+arch = "arm64-v8a"
+build-mode = "module"
+excluded-patches = "'Enable slide to seek' 'Swipe controls' 'Disable auto captions' 'Change form factor' 'Hide seekbar' 'Hide timestamp' 'Exit fullscreen mode' 'Open videos fullscreen' 'Custom player overlay opacity' 'Wide searchbar' 'Shorts autoplay' 'Spoof app version' 'Change start page' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'Check watch history domain name resolution' 'GmsCore support' 'Disable HDR video'"
 
